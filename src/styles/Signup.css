@@ -1,0 +1,21 @@
+.konto_grafika {
+    background-image: url(https://images.pexels.com/photos/3491940/pexels-photo-3491940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 80vh;
+    background-position: center;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.col {
+    margin: 10px 0;
+}
+
+.btn {
+    margin: 5px 10px;
+}
