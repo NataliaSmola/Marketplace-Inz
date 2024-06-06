@@ -87,6 +87,7 @@ a {
 .karuzela_text {
     color: black;
     background-color: #ffc107;
+    margin-bottom: 25px;
 }
 
 .navbar-light .navbar-nav .nav-link {

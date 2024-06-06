@@ -181,12 +181,12 @@ class Home extends Component {
                   <Col className='d-flex flex-column justify-content-center'>
                      <h4><span class="me-1"><Image src="images/envelope-outline.svg" alt="Image" class="img-fluid" /></span><span>Zapisz się do Newslettera</span></h4>
                      <Form className='d-flex'>
-                        <Form.Control placeholder='Enter your name' className='me-4' />
-                        <Form.Control placeholder='Enter your email' className='me-4' />
+                        <Form.Control placeholder='Wpisz swoje imię' className='me-4' />
+                        <Form.Control placeholder='Podaj swój email' className='me-4' />
                         <Button variant="warning rounded-pill" className="btn zapisz">Zapisz się</Button>
                      </Form>
                   </Col>
-                  <Col className='d-flex flex-column justify-align-center align-items-end'>
+                  <Col className='d-flex flex-column justify-align-center align-items-end d-none d-md-block'>
                      <Image src='images/sofa.png' alt="Turkusowy fotel" fluid style={{ width: '400px', height: 'auto' }} />
                   </Col>
                </Row>
@@ -197,32 +197,30 @@ class Home extends Component {
                   </Col>
                   <Col>
                      <ul className='list-unstyled'>
-                        <li><a href='/'>About us</a></li>
-                        <li><a href='/'>Service</a></li>
+                        <li><a href='/'>O nas</a></li>
                         <li><a href='/'>Blog</a></li>
-                        <li><a href='/'>Contact us</a></li>
+                        <li><a href='/'>Skontaktuj się</a></li>
                      </ul>
                   </Col>
                   <Col>
                      <ul className='list-unstyled'>
                         <li><a href='/'>Support</a></li>
-                        <li><a href='/'>Knowledge base</a></li>
-                        <li><a href='/'>Live chat</a></li>
+                        <li><a href='/'>Wiedza</a></li>
+                        <li><a href='/'>Czat</a></li>
                      </ul>
                   </Col>
                   <Col>
                      <ul className='list-unstyled'>
-                        <li><a href='/'>Jobs</a></li>
-                        <li><a href='/'>Our team</a></li>
-                        <li><a href='/'>Leadership</a></li>
-                        <li><a href='/'>Privacy policy</a></li>
+                        <li><a href='/'>Kariera</a></li>
+                        <li><a href='/'>Zespół</a></li>
+                        <li><a href='/'>Polityka prywatności</a></li>
                      </ul>
                   </Col>
                   <Col>
                      <ul className='list-unstyled'>
-                        <li><a href='/'>Delivery & Returns</a></li>
-                        <li><a href='/'>Legal Imprint</a></li>
-                        <li><a href='/'>Media Centre</a></li>
+                        <li><a href='/'>Dostawa & Zwroty</a></li>
+                        <li><a href='/'>Regulamin</a></li>
+                        <li><a href='/'>Media</a></li>
                      </ul>
                   </Col>
                </Row>
@@ -234,8 +232,8 @@ class Home extends Component {
                   </Col>
                   <Col md className='d-flex justify-content-end align-items-center'>
                      <Stack direction='horizontal' gap={4}>
-                        <a href='/'>Terms & Conditions</a>
-                        <a href='/'>Privacy policy</a>
+                        <a href='/'>Regulamin</a>
+                        <a href='/'>Polityka prywatności</a>
                      </Stack>
                   </Col>
                </Row>

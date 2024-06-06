@@ -38,6 +38,8 @@ h2 {
 .row_section {
     flex-direction: row;
     flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
 }
 
 .price {
@@ -47,6 +49,20 @@ h2 {
 .delivery {
     color: #3643ba;
     font-weight: 600;
-
-
 }
+.card-img-top {
+    height: 18vw;
+}
+
+
+@media (max-width: 576px) { 
+    .card-img-top {
+        height: 40vw;
+    }
+ }
+
+@media (max-width: 768px) { 
+    .card-img-top {
+        height: 28vw;
+    }
+ }

@@ -21,7 +21,7 @@ class Signup extends Component {
                 </Navbar>
                 <Container>
                     <Row>
-                        <Col className='konto_grafika' title="Gromadka dzieci" aria-label="gromadka dzieci"></Col>
+                        <Col className='konto_grafika d-none d-sm-block' title="Gromadka dzieci" aria-label="gromadka dzieci"></Col>
                         <Col className='create_account d-flex justify=content-center flex-column align=items=center'>
                             <h2 className='title'>Utwórz konto</h2>
                             <Form className='d-flex justify-content-center flex-column' >

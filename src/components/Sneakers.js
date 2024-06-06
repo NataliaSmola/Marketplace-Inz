@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import "../styles/Sneakers.css";
 
-import { Navbar, Container, Nav, Col, Button, Image, Stack, NavDropdown, Form, Carousel, Card, NavLink } from 'react-bootstrap'
+
+import { Navbar, Container, Nav, Col, Button, Image, Stack, NavDropdown, Form, Card, NavLink } from 'react-bootstrap'
 import Row from 'react-bootstrap/Row';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import 'accessibility-buttons/dist/css/accessibility-buttons.css';
@@ -70,21 +71,22 @@ class Sneakers extends Component {
                 </Container>
                 <Container>
                     <Row className="row_section">
-                        <Col sm={2} className='sidebar'>
-                            <Nav defaultActiveKey="/home" className="flex-column">
-                                <h4>Podkategorie</h4>
-                                <h6>Cofnij do <Nav.Link className="navlink" href="/">strona głowna</Nav.Link> </h6>
-                                <Nav.Link className="navlink" eventKey="link-1">Dla kobiet</Nav.Link>
-                                <Nav.Link className="navlink" eventKey="link-2">Dla mężczyzn</Nav.Link>
-                                <Nav.Link className="navlink" eventKey="link-3">Dla dzieci</Nav.Link>
-                                <Nav.Link className="navlink" eventKey="link-4">Akcesoria</Nav.Link>
+                        <Col xs={5} sm={4} md={2} className='sidebar'>
+                            <Nav defaultActiveKey="/home" >
+                                <h4>Kategorie</h4>
                             </Nav>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Dla kobiet</li>
+                                <li class="list-group-item">Dla mężczyzn</li>
+                                <li class="list-group-item">Dla dzieci</li>
+                                <li class="list-group-item">Akcesoria</li>
+                            </ul>
                         </Col>
-                        <Col sm={10}>
-                            <Row xs={1} md={3} >
+                        <Col xs={7} sm={8} md={10}>
+                            <Row xs={1} md={2} lg={3} >
                                 {Array.from({ length: 6 }).map((_, idx) => (
                                     <Col key={idx}>
-                                        <Card>
+                                        <Card className="karta_produktu">
                                             <Card.Img variant="top" alt="But Nike Model Air Max" src="images/nike_air_max.jpg" />
                                             <Card.Body>
                                                 <Card.Title>NIKE</Card.Title>
