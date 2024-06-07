@@ -235,7 +235,7 @@ class Home extends Component {
                         <a href='/'>Regulamin</a>
                         <a href='/'>Polityka prywatności</a>
                      </Stack>
-                  </Col>
+                  </Col> 
                </Row>
             </Container>
          </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navbar, Container, Nav, Col, Button, Image, Stack, NavDropdown, Form, Carousel, Card, NavLink } from 'react-bootstrap'
+import { Navbar, Container, Col, Button, Form } from 'react-bootstrap'
 import Row from 'react-bootstrap/Row';
 import "../styles/Signup.css";
 
@@ -58,25 +58,10 @@ class Signup extends Component {
                                         <Button variant="secondary" class="btn"><i class="bi bi-apple"></i> Apple</Button>
                                     </Col>
                                 </Row>
-
-
-
-
-
-
-
-
-
-
-
                             </Form>
                         </Col>
                     </Row>
                 </Container>
-
-
-
-
             </div>
         )
     }
