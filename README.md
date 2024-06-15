@@ -1,3 +1,10 @@
+
+Aplikacja prezentuje marketplace zoptymalizowany pod kątem dostępności dla osób niepełnosprawnych. 
+Aktywne są następujące elementy: 
+- strona główna
+- zakładka "Moje Konto"
+- karta produktów po kliknięciu w kafelek "Sneakersy"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
