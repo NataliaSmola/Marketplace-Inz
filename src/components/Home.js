@@ -134,21 +134,21 @@ class Home extends Component {
                </h3>
                <Row xs={1} md={2} className="d-flex justify-content-center">
                   <Card className="text-center m-1" style={{ width: '18rem' }}>
-                     <Card.Img variant="top" src="Images/sneakersy.jpg" alt="Buty Nike oparte o ścianę" />
+                     <Card.Img variant="top" src="Images/Sneakersy.jpg" alt="Buty Nike oparte o ścianę" />
                      <Card.Body className='karta'>
                         <Card.Title>Sneakersy</Card.Title>
                         <Button href="/sneakers" variant="warning">Zobacz więcej</Button>
                      </Card.Body>
                   </Card>
                   <Card className="text-center m-1" style={{ width: '18rem' }}>
-                     <Card.Img variant="top" src="Images/produkty_luksusowe.jpg" alt="Brązowa torebka" />
+                     <Card.Img variant="top" src="Images/Produkty_Luksusowe.jpg" alt="Brązowa torebka" />
                      <Card.Body className='karta'>
                         <Card.Title>Produkty Luksusowe</Card.Title>
                         <Button variant="warning">Zobacz więcej</Button>
                      </Card.Body>
                   </Card>
                   <Card className="text-center m-1" style={{ width: '18rem' }}>
-                     <Card.Img variant="top" src="Images/zabawki.jpg" alt="Zółty samochód strażacki dla dzieci" />
+                     <Card.Img variant="top" src="Images/Zabawki.jpg" alt="Zółty samochód strażacki dla dzieci" />
                      <Card.Body className='karta'>
                         <Card.Title>Zabawki</Card.Title>
                         <Button variant="warning">Zobacz więcej</Button>
