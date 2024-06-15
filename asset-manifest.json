@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Marketplace-Inz/static/css/main.f94fab38.css",
-    "main.js": "/Marketplace-Inz/static/js/main.d5fd7ce4.js",
+    "main.js": "/Marketplace-Inz/static/js/main.e1ff5def.js",
     "static/js/453.ed3810f9.chunk.js": "/Marketplace-Inz/static/js/453.ed3810f9.chunk.js",
     "static/media/bootstrap-icons.woff?": "/Marketplace-Inz/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/Marketplace-Inz/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/Marketplace-Inz/index.html",
     "main.f94fab38.css.map": "/Marketplace-Inz/static/css/main.f94fab38.css.map",
-    "main.d5fd7ce4.js.map": "/Marketplace-Inz/static/js/main.d5fd7ce4.js.map",
+    "main.e1ff5def.js.map": "/Marketplace-Inz/static/js/main.e1ff5def.js.map",
     "453.ed3810f9.chunk.js.map": "/Marketplace-Inz/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f94fab38.css",
-    "static/js/main.d5fd7ce4.js"
+    "static/js/main.e1ff5def.js"
   ]
 }
