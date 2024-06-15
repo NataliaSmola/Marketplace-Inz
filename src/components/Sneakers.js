@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
-
 import "../styles/Sneakers.css";
-
-
-import { Navbar, Container, Nav, Col, Button, Image, Stack, NavDropdown, Form, Card, NavLink } from 'react-bootstrap'
+import { Navbar, Container, Nav, Col, Button, Image, Form, Card, NavLink } from 'react-bootstrap'
 import Row from 'react-bootstrap/Row';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import 'accessibility-buttons/dist/css/accessibility-buttons.css';
