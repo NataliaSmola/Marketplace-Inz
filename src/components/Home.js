@@ -26,11 +26,11 @@ class Home extends Component {
                            <Button variant="warning rounded-pill" class="btn">Szukaj</Button>
                         </Form>
                         <NavLink href="/signup" className="navbar_icon text-dark">
-                           <Image src='images/user.png' alt="Moje Konto" className="menu_ikona" />
+                           <Image src='Images/user.png' alt="Moje Konto" className="menu_ikona" />
                            Moje Konto
                         </NavLink>
                         <Nav.Link href="#Cart" className="navbar_icon text-dark">
-                           <Image src='images/cart.png' alt="Koszyk" className="menu_ikona" />
+                           <Image src='Images/cart.png' alt="Koszyk" className="menu_ikona" />
                            Koszyk
                         </Nav.Link>
                      </Nav>
@@ -141,21 +141,21 @@ class Home extends Component {
                      </Card.Body>
                   </Card>
                   <Card className="text-center m-1" style={{ width: '18rem' }}>
-                     <Card.Img variant="top" src="images/produkty_luksusowe.jpg" alt="Brązowa torebka" />
+                     <Card.Img variant="top" src="Images/produkty_luksusowe.jpg" alt="Brązowa torebka" />
                      <Card.Body className='karta'>
                         <Card.Title>Produkty Luksusowe</Card.Title>
                         <Button variant="warning">Zobacz więcej</Button>
                      </Card.Body>
                   </Card>
                   <Card className="text-center m-1" style={{ width: '18rem' }}>
-                     <Card.Img variant="top" src="images/zabawki.jpg" alt="Zółty samochód strażacki dla dzieci" />
+                     <Card.Img variant="top" src="Images/zabawki.jpg" alt="Zółty samochód strażacki dla dzieci" />
                      <Card.Body className='karta'>
                         <Card.Title>Zabawki</Card.Title>
                         <Button variant="warning">Zobacz więcej</Button>
                      </Card.Body>
                   </Card>
                   <Card className="text-center m-1" style={{ width: '18rem' }}>
-                     <Card.Img variant="top" src="images/części_samochodowe.jpg" alt="Felgi samochodowe" />
+                     <Card.Img variant="top" src="Images/części_samochodowe.jpg" alt="Felgi samochodowe" />
                      <Card.Body className='karta'>
                         <Card.Title>Części samochodowe
                         </Card.Title>
@@ -179,7 +179,7 @@ class Home extends Component {
             <Container className='bg-white anchor'>
                <Row className='p-auto py-5 p-sm-5'>
                   <Col className='d-flex flex-column justify-content-center'>
-                     <h4><span class="me-1"><Image src="images/envelope-outline.svg" alt="Image" class="img-fluid" /></span><span>Zapisz się do Newslettera</span></h4>
+                     <h4><span class="me-1"><Image src="Images/envelope-outline.svg" alt="Image" class="img-fluid" /></span><span>Zapisz się do Newslettera</span></h4>
                      <Form className='d-flex'>
                         <Form.Control placeholder='Wpisz swoje imię' className='me-4' />
                         <Form.Control placeholder='Podaj swój email' className='me-4' />

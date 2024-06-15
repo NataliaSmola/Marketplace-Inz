@@ -5,6 +5,8 @@ Aktywne są następujące elementy:
 - zakładka "Moje Konto"
 - karta produktów po kliknięciu w kafelek "Sneakersy"
 
+Link do projektu https://nataliasmola.github.io/Marketplace-Inz/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

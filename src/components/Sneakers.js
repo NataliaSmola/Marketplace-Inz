@@ -30,11 +30,11 @@ class Sneakers extends Component {
                                     <Button variant="warning rounded-pill" class="btn">Szukaj</Button>
                                 </Form>
                                 <NavLink href="/signup" className="navbar_icon text-dark">
-                                    <Image src='images/user.png' alt="Moje Konto" className="menu_ikona" />
+                                    <Image src='Images/user.png' alt="Moje Konto" className="menu_ikona" />
                                     Moje Konto
                                 </NavLink>
                                 <Nav.Link href="#Cart" className="navbar_icon text-dark">
-                                    <Image src='images/cart.png' alt="Koszyk" className="menu_ikona" />
+                                    <Image src='Images/cart.png' alt="Koszyk" className="menu_ikona" />
                                     Koszyk
                                 </Nav.Link>
                             </Nav>
@@ -63,7 +63,7 @@ class Sneakers extends Component {
                                 Kupuj marki, które wyznaczają trendy
                             </h3>
                         </Col>
-                        <Col className='image_column'><Image src="images/basketball_sneakers.jpg" alt="Fioletowo-różowe buty sportowe i piłka do koszykówki" className='image_top' /></Col>
+                        <Col className='image_column'><Image src="Images/basketball_sneakers.jpg" alt="Fioletowo-różowe buty sportowe i piłka do koszykówki" className='image_top' /></Col>
                     </Row>
                 </Container>
                 <Container>
@@ -84,7 +84,7 @@ class Sneakers extends Component {
                                 {Array.from({ length: 6 }).map((_, idx) => (
                                     <Col key={idx}>
                                         <Card className="karta_produktu">
-                                            <Card.Img variant="top" alt="But Nike Model Air Max" src="images/nike_air_max.jpg" />
+                                            <Card.Img variant="top" alt="But Nike Model Air Max" src="Images/nike_air_max.jpg" />
                                             <Card.Body>
                                                 <Card.Title>NIKE</Card.Title>
                                                 <Card.Text>
