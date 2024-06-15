@@ -101,7 +101,7 @@ class Home extends Component {
                   <Col>
                      <Carousel interval={null}>
                         <Carousel.Item>
-                           <img src="images/karuzela1.jpg" class="d-block w-100 obraz_karuzela" text="First slide" alt="Niebieskie buty" />
+                           <img src="Images/karuzela1.jpg" class="d-block w-100 obraz_karuzela" text="First slide" alt="Niebieskie buty" />
                            <Carousel.Caption className="karuzela_text">
                               <span className='tekstkaruzeli'><h3>Platforma dostępna dla każdego</h3>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -109,14 +109,14 @@ class Home extends Component {
                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
-                           <img src="images/karuzela2.jpg" class="d-block w-100 obraz_karuzela" text="Second slide" alt="Kolorowe gitary" />
+                           <img src="Images/karuzela2.jpg" class="d-block w-100 obraz_karuzela" text="Second slide" alt="Kolorowe gitary" />
                            <Carousel.Caption className="karuzela_text">
                               <h3>Platforma dostępna dla każdego</h3>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
-                           <img src="images/karuzela3.jpg" class="d-block w-100 obraz_karuzela" text="Third slide" alt="Biały smartphone Samsung" />
+                           <img src="Images/karuzela3.jpg" class="d-block w-100 obraz_karuzela" text="Third slide" alt="Biały smartphone Samsung" />
                            <Carousel.Caption className="karuzela_text">
                               <h3>Platforma dostępna dla każdego</h3>
                               <p>
@@ -134,7 +134,7 @@ class Home extends Component {
                </h3>
                <Row xs={1} md={2} className="d-flex justify-content-center">
                   <Card className="text-center m-1" style={{ width: '18rem' }}>
-                     <Card.Img variant="top" src="images/sneakersy.jpg" alt="Buty Nike oparte o ścianę" />
+                     <Card.Img variant="top" src="Images/sneakersy.jpg" alt="Buty Nike oparte o ścianę" />
                      <Card.Body className='karta'>
                         <Card.Title>Sneakersy</Card.Title>
                         <Button href="/sneakers" variant="warning">Zobacz więcej</Button>
@@ -172,7 +172,7 @@ class Home extends Component {
                      <Button variant="warning">Sprawdź kategorie</Button>
                   </Col>
                   <Col sm={8} className='background_section'>
-                     <Image src='images/krzesło.jpg' alt="Zielone krzesło" className='background_picture' />
+                     <Image src='Images/krzesło.jpg' alt="Zielone krzesło" className='background_picture' />
                   </Col>
                </Row>
             </Container>
@@ -187,7 +187,7 @@ class Home extends Component {
                      </Form>
                   </Col>
                   <Col className='d-flex flex-column justify-align-center align-items-end d-none d-md-block'>
-                     <Image src='images/sofa.png' alt="Turkusowy fotel" fluid style={{ width: '400px', height: 'auto' }} />
+                     <Image src='Images/sofa.png' alt="Turkusowy fotel" fluid style={{ width: '400px', height: 'auto' }} />
                   </Col>
                </Row>
                <Row className='border-bottom p-auto p-sm-5'>
